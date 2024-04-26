@@ -10,12 +10,13 @@ namespace WindowsFormsApp6
     public class Computer
     {
         // Поля класу
-        private string type;
-        private string processor;
-        private string monitor;
-        private string keyboard;
-        private string mouse;
-        private string systemUnit;
+        protected string type;
+        protected string processor;
+        protected string monitor;
+        protected string keyboard;
+        protected string mouse;
+        protected string systemUnit;
+
         // Конструктор
         public Computer(string type, string processor, string monitor, string keyboard, string mouse, string systemUnit)
         {
@@ -26,6 +27,7 @@ namespace WindowsFormsApp6
             this.mouse = mouse;
             this.systemUnit = systemUnit;
         }
+
         // Методи класу
         public void Modernize(string component, string replacement)
         {
@@ -51,8 +53,9 @@ namespace WindowsFormsApp6
                     break;
             }
         }
+
         // Перевірка готовності комп'ютера
-        public bool IsReady()
+        public virtual bool IsReady()
         {
             return !string.IsNullOrWhiteSpace(type) &&
                    !string.IsNullOrWhiteSpace(processor) &&
@@ -61,6 +64,7 @@ namespace WindowsFormsApp6
                    !string.IsNullOrWhiteSpace(mouse) &&
                    !string.IsNullOrWhiteSpace(systemUnit);
         }
+
         // Отримання опису комп'ютера
         public string GetDescription()
         {

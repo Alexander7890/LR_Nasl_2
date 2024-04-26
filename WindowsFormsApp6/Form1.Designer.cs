@@ -53,9 +53,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(648, 44);
+            this.listBox1.Location = new System.Drawing.Point(479, 41);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(256, 173);
+            this.listBox1.Size = new System.Drawing.Size(631, 173);
             this.listBox1.TabIndex = 21;
             // 
             // textBox8
@@ -116,7 +116,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(648, 244);
+            this.button1.Location = new System.Drawing.Point(692, 240);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 23);
             this.button1.TabIndex = 22;
@@ -126,7 +126,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(648, 299);
+            this.button2.Location = new System.Drawing.Point(692, 295);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(178, 23);
             this.button2.TabIndex = 23;
@@ -136,7 +136,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(648, 357);
+            this.button3.Location = new System.Drawing.Point(692, 353);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(178, 23);
             this.button3.TabIndex = 24;
@@ -220,7 +220,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 439);
+            this.ClientSize = new System.Drawing.Size(1122, 439);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
